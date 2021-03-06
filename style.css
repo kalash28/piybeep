@@ -23,25 +23,18 @@ body {
   font-weight: 700;
   letter-spacing: 5px;
   position: relative;
-  animation: text 2s 1;
+  animation: text 5s 1;
   
 }
 
 .text2{
   color: #6a74ce;
   font-size: 30px;
+  animation: text 5s 1;
 }
 
 @keyframes text{
-  0%{
-    margin-right: 2550px;
-  }
-  50%{
-    letter-spacing: 45px;
-    margin-right: -45px;
-  }
-  95%{
-    letter-spacing: 5px;
-    margin-right: -18px;
-  }
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+
 }

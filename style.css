@@ -3,6 +3,16 @@
   padding: 0;
   font-size: 100%;
 }
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  overflow: hidden;
+  position: relative;
+}
+
 body {
   font-family: "Consolas";
   background-color:#0b1323;

@@ -34,7 +34,7 @@ body {
 
 @keyframes text{
   0%{
-    margin-right: -2550px;
+    margin-right: 2550px;
   }
   50%{
     letter-spacing: 45px;

@@ -11,7 +11,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  animation: container 2s;
+  animation: container 1s;
 }
 h1{
   font-size: 42px;
@@ -19,10 +19,17 @@ h1{
 }
 h1 > span {
   color: #6a74ce;
+  animation: dot 3s;
 }
 
 @keyframes container{
     0% {opacity: 0;}
+    60% {opacity: 0;}
     100% {opacity: 1;}
 
+}
+@keyframes dot{
+  0% {opacity: 0;}
+  60% {opacity: 0;}
+  100% {opacity: 1;}
 }
